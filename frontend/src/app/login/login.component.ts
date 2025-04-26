@@ -25,8 +25,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   } 
-  submit() {
-    debugger;
+  onSubmit() {
     this.loginService.submitlogin(this.userDetails).subscribe(response => {
       let data = response;
     });
