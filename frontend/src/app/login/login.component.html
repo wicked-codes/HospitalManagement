@@ -1,0 +1,19 @@
+<form #userForm="ngForm" (ngSubmit)="userForm.form.valid && onSubmit()" novalidate>
+	<div>
+		<label for="name">Email</label>
+		<input name="Email"
+           type="text"
+           [(ngModel)]="userDetails.email"
+           required/>
+  </div>
+
+  <div>
+    <label for="pwd">Password</label>
+    <input name="pwd" 
+           type="password" 
+           [(ngModel)]="userDetails.password"
+           required>
+  </div>
+
+  <button type="button" (click)="submit()">Submit</button>
+</form>
