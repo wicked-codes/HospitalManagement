@@ -1,0 +1,21 @@
+{
+  "name": "hospitalmanagement",
+  "version": "1.0.0",
+  "description": "Hackathon",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicked-codes/HospitalManagement.git"
+  },
+  "author": "Ashish Kumar Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wicked-codes/HospitalManagement/issues"
+  },
+  "homepage": "https://github.com/wicked-codes/HospitalManagement#readme"
+}
